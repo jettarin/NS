@@ -1,0 +1,173 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>{{ item.name }}</ion-title>
+    </ion-navbar>
+
+  </ion-header>
+
+
+  <ion-content>
+    <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+    </div>
+
+    <div class="item-detail" padding>
+      <h2>{{item.name}}</h2>
+      <p>{{item.about}}</p>
+
+      <ion-card>
+
+
+          <ion-card-content>
+            <ion-card-title>
+                DOPAMINE   1 amp มียา 250 mg /10cc (1cc=25 mg)
+
+            </ion-card-title>
+
+          </ion-card-content >
+
+          <ion-item>
+              Dopa 1:1 = Dopa  4 cc   + 5 DW /NSS 100 cc   หรือ  Dopa  20 cc + น้ำ 500 cc
+          </ion-item>
+
+          <ion-item>
+              Dopa 2:1 = Dopa 8 cc + 5 DW/ NSS  100 cc  หรือ  Dopa  40 cc + น้ำ 500 cc
+          </ion-item>
+
+          <ion-item>
+              Dopa 4:1 = Dopa 16 cc + 5 DW /NSS 100 cc    หรือ  Dopa 80 cc + น้ำ 500 cc
+          </ion-item>
+
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+            <ion-card-title>
+                DOBUTAMINE     DBT 1 vial มียา 250 mg/ 20cc (1cc=12.5mg)
+            </ion-card-title>
+
+          </ion-card-content >
+
+          <ion-item>
+              DBT 1:1 = DBT 8 cc (100mg) +5 DW / NSS  100 cc
+          </ion-item>
+
+          <ion-item>
+              DBT 2:1 = DBT 16 cc (200mg) + 5 DW / NSS  100 cc
+          </ion-item>
+
+          <ion-item>
+              DBT 4:1 = DBT 32 cc (400mg) +5 DW / NSS  100 cc
+          </ion-item>
+
+      </ion-card>
+      <ion-card>
+          <ion-card-content>
+              <ion-card-title>
+                  NiTROGLYCERINE      NTG 1amp มียา 50 mg / 10 cc ( 1cc = 5 mg )
+              </ion-card-title>
+            </ion-card-content >
+            <ion-item>
+                NTG 1:1 = NTG 20 cc (100 mg) + 5 DW / NSS  100 cc
+            </ion-item>
+            <ion-item>
+                NTG 1:2 = NTG 10 cc (50 mg) + 5DW /NSS  100 cc
+            </ion-item>
+
+            <ion-item>
+                NTG 1:5 = NTG 4 cc (20 mg) +5DW /NSS 100 cc
+            </ion-item>
+            <ion-item>
+                NTG 1:10 = NTG 2 cc (10 mg) +5DW / NSS 100 cc
+            </ion-item>
+        </ion-card>
+
+        <ion-card>
+            <ion-card-content>
+                <ion-card-title>
+                    Nicardipine 1 amp =10 mg/10 ml
+                </ion-card-title>
+              </ion-card-content >
+              <ion-item>
+                  Nicardipine  1:5 = Nicardipine 20 mg  (2amp) + NSS 100 cc
+              </ion-item>
+              <ion-item>
+                  Nicardipine  1:10 = Nicardipine 10 mg  (1amp) + NSS 100 cc
+              </ion-item>
+
+              <ion-item>
+                  Mo 1 amp =10 mg  วิธีเตรียม dilute SW 10 ml เป็น 1 mg / 1 ml
+              </ion-item>
+              <ion-item>
+                  การให้ในเด็ก = 0.1 mg/kg
+              </ion-item>
+          </ion-card>
+
+          <ion-card>
+              <ion-card-content>
+                  <ion-card-title>
+                      ADENOSINE
+                  </ion-card-title>
+                </ion-card-content >
+                <ion-item>
+                    Adenosine 1 vial = 6 mg มี 2 ml  = 3 mg มี 1 ml <br>
+                    *เทคนิคการให้ : Double syring ตามด้วย NSS 10-20 cc
+
+                </ion-item>
+
+            </ion-card>
+
+            <ion-card>
+                <ion-card-content>
+                    <ion-card-title>
+                        Adrenaline
+                    </ion-card-title>
+                  </ion-card-content >
+                  <ion-item>
+                      เด็ก 1:1000 หมายถึง ใน1 amp มี1 ml = adrenaline 1000 mg <br>
+                      วิธีการให้    -      0.01 mg / kg ทาง0.02 IVF
+                  </ion-item>
+
+              </ion-card>
+              <ion-card>
+                  <ion-card-content>
+                      <ion-card-title>
+                          MgSO4
+                      </ion-card-title>
+                    </ion-card-content >
+                    <ion-item>
+                        10 % MgSO4 10 ml = มี mg 1 qm        50 % MgSO4 2 ml = มี mg 1qm
+                    </ion-item>
+                    <ion-item>
+                        Sandostatiin(Octreotide)  5  amp +5%DW 500 ml V drip  rate 50 cc /hr
+                    </ion-item>
+                    <ion-item>
+                        Controloc (Pantoprazole) 40 mg +5%D/W100 ml V drip rate 20 cc/hr
+                    </ion-item>
+
+                </ion-card>
+
+                <ion-card >
+                    <ion-card-header>
+                        <ion-icon name='exit' item-start style="color: #0a60f5"></ion-icon> NOTE……
+                    </ion-card-header>
+                    <ion-card-content>
+                        ERIC -------40 U/kg       <br>
+                        HRIC-------- 20 U/kg <br>
+                        NE	  ห้ามผสมใน	NSS <br>
+                        Amiodarone <br>
+                        Dilantin ---------------      ห้ามผสมใน 5DW  และ  5%DN/2
+                    </ion-card-content>
+                  </ion-card>
+
+
+
+
+
+    </div>
+
+
+
+
+
+  </ion-content>
