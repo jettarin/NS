@@ -25,4 +25,11 @@ export class IcdPage {
     console.log('ionViewDidLoad IcdPage');
   }
 
+  view(imageToView) {
+    console.log(imageToView);
+
+    const viewer = this.imageViewerCtrl.create(imageToView)
+    viewer.present();
+  }
+
 }

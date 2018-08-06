@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, ModalController, NavController } from 'ionic-angular';
 
+
 import { Item } from '../../models/item';
 import { Items } from '../../providers/providers';
 
@@ -11,6 +12,7 @@ import { Items } from '../../providers/providers';
 })
 export class ListMasterPage {
   currentItems: Item[];
+
 
   constructor(public navCtrl: NavController, public items: Items, public modalCtrl: ModalController) {
     this.currentItems = this.items.query();
@@ -50,10 +52,13 @@ export class ListMasterPage {
    */
   openItem(item: Item) {
     console.log("this item = ",item);
-
+    if (item.page == 'OtherPage') {
+      window.open("https://drive.google.com/file/d/1L1GQR7BRMt7yx6uhXKEvcX62vgiCgU_R/view",'_system', 'location=yes');
+    }
     this.navCtrl.push(item.page, {
       item: item
     });
+
   }
 
 

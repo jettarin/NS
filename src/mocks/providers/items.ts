@@ -55,6 +55,12 @@ export class Items {
         "profilePic": "assets/img/speakers/formula.jpg",
         "about": "Molly is a Mouse.",
         "page":"FormulaPage"
+      },
+      {
+        "name": "อื่น ๆ",
+        "profilePic": "assets/img/speakers/other.png",
+        "about": "ข้อมูลด้านการหัตถการเพื่อพัฒนาทักษะ",
+        "page":"OtherPage"
       }
     ];
 
