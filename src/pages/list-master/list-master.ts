@@ -54,10 +54,13 @@ export class ListMasterPage {
     console.log("this item = ",item);
     if (item.page == 'OtherPage') {
       window.open("https://drive.google.com/file/d/1L1GQR7BRMt7yx6uhXKEvcX62vgiCgU_R/view",'_system', 'location=yes');
+    }else{
+     this.navCtrl.push(item.page, {
+        item: item
+     });
     }
-    this.navCtrl.push(item.page, {
-      item: item
-    });
+      
+   
 
   }
 
