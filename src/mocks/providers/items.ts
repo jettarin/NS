@@ -53,7 +53,7 @@ export class Items {
       {
         "name": "สูตรผสมยาที่ใช้บ่อย",
         "profilePic": "assets/img/speakers/formula.jpg",
-        "about": "Molly is a Mouse.",
+        "about": "Frequently Used Formulas",
         "page":"FormulaPage"
       },
       {
