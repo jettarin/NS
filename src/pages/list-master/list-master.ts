@@ -59,6 +59,9 @@ export class ListMasterPage {
         item: item
       });
     }
+    }
+
+
 
 
   }
@@ -67,4 +70,4 @@ export class ListMasterPage {
 
 
 
-}
+
